@@ -1,7 +1,7 @@
 {
   "name": "m6",
   "description": "A simple routing module for node.js",
-  "url": "https://github.com/FutureAdLabs/M6",
+  "url": "https://github.com/virushuo/M6",
   "keywords": [
     "routing"
   ],
@@ -13,7 +13,7 @@
   "main": "./m6.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FutureAdLabs/M6.git"
+    "url": "https://github.com/virushuo/M6.git"
   },
   "version": "0.1.3",
   "_id": "M6@0.1.3",
