@@ -79,13 +79,14 @@ var M6 = function() {
 
 	var _getRouteStringMatch = function(req) {
 		var url = req.url;
+		var method = req.method;
 
 		if(url.indexOf('?') >= 0) {
 			url = url.substr(0, url.indexOf('?'));
 		}
 
 		for(var i = 0, length = _simpleRoutes.length; i < length; i++) {
-			if(_simpleRoutes[i].Url === url) {
+			if(_simpleRoutes[i].Url === url && _simpleRoutes[i].Method===method) {
 				return _simpleRoutes[i];
 			}
 		}
